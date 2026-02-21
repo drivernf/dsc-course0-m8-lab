@@ -27,8 +27,9 @@ Python 3.10 with:
 - `matplotlib`
 - `seaborn`
 - `Jupyter`
-Install example:
-`pip install pandas numpy matplotlib seaborn jupyter`
+
+#### Install example:
+#### `pip install pandas numpy matplotlib seaborn jupyter`
 ---
 ### Reproducibility: Run Order
 1. Open and run Aviation_Accidents_Cleaning.ipynb from top to bottom.
@@ -68,11 +69,11 @@ Rows with valid injury-rate denominator used in EDA: 16,337
 Equal-weight average of injury and destruction rates:
 Lower is better.
 ---
-Key Findings
+### Key Findings
 A) Baseline by aircraft size
-- Large (>20): mean injury rate 0.1019, destruction rate 0.0996
-- Small (<=20): mean injury rate 0.2927, destruction rate 0.1102
-Interpretation: large-aircraft accidents in this filtered sample show much lower mean fatal/serious injury fraction.
+  - Large (>20): mean injury rate 0.1019, destruction rate 0.0996
+  - Small (<=20): mean injury rate 0.2927, destruction rate 0.1102
+#### Interpretation: large-aircraft accidents in this filtered sample show much lower mean fatal/serious injury fraction.
 B) Make-level results
 Small aircraft (<=20)
 Top combined-risk makes (n >=20):
@@ -81,7 +82,7 @@ Top combined-risk makes (n >=20):
 3. GRUMMAN ACFT ENG COR-SCHWEIZER (n=58, injury=0.2069, destroy=0.0172)
 4. STINSON (n=129, injury=0.2164, destroy=0.0233)
 5. AERONCA (n=200, injury=0.2258, destroy=0.0350)
-Additional note: CESSNA has a larger risk estimate than the top small-make group, but very high sample support (n~6,959), which improves estimate stability.
+#### Additional note: CESSNA has a larger risk estimate than the top small-make group, but very high sample support (n~6,959), which improves estimate stability.
 Large aircraft (>20)
 Top combined-risk makes (n >=20):
 1. MCDONNELL DOUGLAS (n=38, injury=0.0109, destroy=0.1053)
@@ -89,7 +90,7 @@ Top combined-risk makes (n >=20):
 3. BOEING (n=297, injury=0.0993, destroy=0.0909)
 4. AIRBUS (n=68, injury=0.1439, destroy=0.1324)
 Interpretation: BOEING and EMBRAER are strongest large-segment candidates when balancing risk and sample size.
-C) Plane-type highlights (n >=10)
+#### C) Plane-type highlights (n >=10)
 Large plane types
 - BOEING | 757: injury 0.0027, destroy 0.0000 (n=10)
 - EMBRAER | EMB-145LR: injury 0.0150, destroy 0.0000 (n=10)
