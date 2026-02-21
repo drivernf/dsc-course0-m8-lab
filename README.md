@@ -109,13 +109,13 @@ Examples with low combined risk include:
     - Turbo Fan: lowest injury risk (0.1347), destruction 0.0975
     - Reciprocating: lower destruction (0.0789) but higher injury (0.2560)
     - Unknown: worst outcomes (injury 0.4648, destruction 0.2474)
-Interpretation: complete and specific engine labeling is important; unknown classifications are strongly associated with poorer safety outcomes.
+#### Interpretation: complete and specific engine labeling is important; unknown classifications are strongly associated with poorer safety outcomes.
 2) Purpose of Flight (robust groups n >=30)
     - Instructional: best profile (injury 0.1709, destruction 0.0420, n=2,382)
     - Personal: injury 0.2813, destruction 0.0939, very large n (9,765)
     - Unknown: poor profile (injury 0.4137, destruction 0.2446)
     - Banner Tow: low destruction but high injury fraction, suggesting risk tradeoff by mission type
-Interpretation: mission context materially affects risk and should be included in underwriting and operational policy.
+#### Interpretation: mission context materially affects risk and should be included in underwriting and operational policy.
 ---
 ### Recommendations
 #### For small-aircraft segment (<=20 occupants)
