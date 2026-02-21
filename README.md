@@ -102,7 +102,7 @@ Examples with low combined risk include:
 - MAULE | M-5-210C (n=11)
 - CESSNA | 172SP (n=12)
 - DIAMOND AIRCRAFT IND INC | DA 20 C1 (n=11)
-Interpretation: many low-risk small-type estimates have modest sample sizes; use with caution.
+#### Interpretation: many low-risk small-type estimates have modest sample sizes; use with caution.
 ---
 ### Factor Analysis
 1) Engine Type (robust groups n >=30)
