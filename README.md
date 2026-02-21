@@ -96,8 +96,8 @@ Large plane types
 - EMBRAER | EMB-145LR: injury 0.0150, destroy 0.0000 (n=10)
 - BOEING | 777: injury 0.0023, destroy 0.0833 (n=12)
 - BOEING | 737: injury 0.1731, destroy 0.1447 (n=76)
-Interpretation: some very low-risk large models have small n; BOEING | 737 offers higher statistical stability due to much larger n.
-Small plane types
+#### Interpretation: some very low-risk large models have small n; BOEING | 737 offers higher statistical stability due to much larger n.
+#### Small plane types
 Examples with low combined risk include:
 - MAULE | M-5-210C (n=11)
 - CESSNA | 172SP (n=12)
